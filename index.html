@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aurelia Classic Pro - Premium Graphic Designer Portfolio">
+    <title>Wasif Ali | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">Wasif</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-name" id="heroName"></h1>
+                    <p class="hero-title" id="heroTitle"></p>
+                    <p class="hero-bio" id="heroBio"></p>
+                    <div class="hero-social" id="heroSocial"></div>
+                    <a href="https://drive.google.com/file/d/1G7M_RrjzplneR53FLPQVvLozIV6CPGZS/view?usp=sharing" class="btn btn-primary">Resume</a>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-avatar-wrapper">
+                        <img src="" alt="Profile" class="hero-avatar" id="heroAvatar" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience" id="experience">
+            <div class="container">
+                <h2 class="section-title">Professional Experience</h2>
+                <div class="timeline" id="timeline"></div>
+            </div>
+        </section>
+
+        <section class="education" id="education">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="education-grid" id="educationGrid"></div>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <div class="container">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <div class="skills-container" id="skillsContainer"></div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content" id="contactContent"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">&copy; <span id="footerYear"></span> <span id="footerName"></span>. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
